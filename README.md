@@ -1,5 +1,25 @@
 # Exercise: Developing Kafka Producer
 
+## How to run
+
+- zookeeper:
+
+````
+    C:\kafka\bin\windows>zookeeper-server-start.bat C:kafka\config\zookeeper.properties
+````
+
+- kafka server:
+
+````
+    C:\kafka\bin\windows>kafka-server-start.bat C:\kafka\config\server.properties
+````
+
+- read message:
+
+ ````
+    C:\kafka\bin\windows>kafka-console-consumer.bat --topic New-Topic --from-beginning --bootstrap-server localhost:9092
+ ````
+
 ## Procedure
 
 1. Read the javadoc of [KafkaProducer](https://kafka.apache.org/20/javadoc/org/apache/kafka/clients/producer/KafkaProducer.html) to know how to use the Producer API (to send messages to Kafka)
