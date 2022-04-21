@@ -20,7 +20,13 @@
 
  ````
     cd C:\kafka\bin\windows
-    kafka-console-consumer.bat --topic Topic --from-beginning --bootstrap-server localhost:9092
+    kafka-console-consumer.bat --topic output --from-beginning --bootstrap-server localhost:9092
+ ````
+ - write message:
+
+ ````
+    cd C:\kafka\bin\windows
+    kafka-console-producer.bat --topic input --bootstrap-server localhost:9092
  ````
 
 ## Procedure
