@@ -5,19 +5,22 @@
 - zookeeper:
 
 ````
-    C:\kafka\bin\windows>zookeeper-server-start.bat C:kafka\config\zookeeper.properties
+    cd C:\kafka\bin\windows
+    zookeeper-server-start.bat C:\kafka\config\zookeeper.properties
 ````
 
 - kafka server:
 
 ````
-    C:\kafka\bin\windows>kafka-server-start.bat C:\kafka\config\server.properties
+    cd C:\kafka\bin\windows
+    kafka-server-start.bat C:\kafka\config\server.properties
 ````
 
 - read message:
 
  ````
-    C:\kafka\bin\windows>kafka-console-consumer.bat --topic New-Topic --from-beginning --bootstrap-server localhost:9092
+    cd C:\kafka\bin\windows
+    kafka-console-consumer.bat --topic Topic --from-beginning --bootstrap-server localhost:9092
  ````
 
 ## Procedure
