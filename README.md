@@ -32,14 +32,14 @@
 
 ````
     cd kafka
-    ./bin/zookeeper-server-start.sh /Users/danielfiedosiuk/kafka/config/zookeeper.properties
+    ./bin/zookeeper-server-start.sh /Users/d.fiedosiuk/kafka/config/zookeeper.properties
 ````
 
 - kafka server:
 
 ````
     cd kafka
-    ./bin/kafka-server-start.sh /Users/danielfiedosiuk/kafka/config/server.properties
+    ./bin/kafka-server-start.sh /Users/d.fiedosiuk/kafka/config/server.properties
 ````
 
 - read message:
